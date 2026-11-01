@@ -1,0 +1,34 @@
+========================================================================
+[2026-11-01 20:14:07] Starting Personal Expense Tracking Agent Daily Job
+[2026-11-01 20:14:07] Air-gap enforced: AGENT_NETWORK_ACCESS=none
+[2026-11-01 20:14:07] Discovered 1 statement CSV file(s) in '/Users/krishna/Desktop/personal-expense-agent/statements'.
+[2026-11-01 20:14:07] Launching deterministic Python pipeline...
+[STAGE 1: SCAN] Target statement: practice_statement.csv
+[STAGE 2: INGEST] Loaded 23 transactions. Opening Balance: ₹50,000.00
+[STAGE 3: SANITIZE] Completed. Security alerts raised: 1
+[STAGE 4: FILTER] Non-spending items segregated: 5
+[STAGE 5: CATEGORIZE] Categorized all active transactions using persistent memory.
+[STAGE 6: DETECT] Duplicates found: 1
+[STAGE 7: CALCULATE] Money In: ₹86,799.00 | Money Out: ₹62,268.00
+[STAGE 7: CALCULATE] Computed Closing: ₹74,531.00 | Target: ₹74,531.00
+[STAGE 8: REPORT] Generated report at 'daily_report.md'
+[FINAL AUDIT] CHECK LINE: Opening Balance + Money In - Money Out = Closing Balance [PASSED (VERIFIED TRUE)]
+[2026-11-01 20:14:08] SUCCESS: Daily expense processing completed successfully.
+[2026-11-01 20:14:08] Report generated at '/Users/krishna/Desktop/personal-expense-agent/daily_report.md'.
+========================================================================
+[2026-11-01 20:16:34] Starting Personal Expense Tracking Agent Daily Job
+[2026-11-01 20:16:34] Air-gap enforced: AGENT_NETWORK_ACCESS=none
+[2026-11-01 20:16:34] Discovered 1 statement CSV file(s) in '/Users/krishna/Desktop/personal-expense-agent/statements'.
+[2026-11-01 20:16:34] Launching deterministic Python pipeline...
+[STAGE 1: SCAN] Target statement: practice_statement.csv
+[STAGE 2: INGEST] Loaded 23 transactions. Opening Balance: ₹50,000.00
+[STAGE 3: SANITIZE] Completed. Security alerts raised: 1
+[STAGE 4: FILTER] Non-spending items segregated: 5
+[STAGE 5: CATEGORIZE] Categorized all active transactions using persistent memory.
+[STAGE 6: DETECT] Duplicates found: 1
+[STAGE 7: CALCULATE] Money In: ₹86,799.00 | Money Out: ₹62,268.00
+[STAGE 7: CALCULATE] Computed Closing: ₹74,531.00 | Target: ₹74,531.00
+[STAGE 8: REPORT] Generated report at 'daily_report.md'
+[FINAL AUDIT] CHECK LINE: Opening Balance + Money In - Money Out = Closing Balance [PASSED (VERIFIED TRUE)]
+[2026-11-01 20:16:34] SUCCESS: Daily expense processing completed successfully.
+[2026-11-01 20:16:34] Report generated at '/Users/krishna/Desktop/personal-expense-agent/daily_report.md'.
